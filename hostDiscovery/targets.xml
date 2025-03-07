@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Mar  6 22:46:57 2025 as: nmap -sn -PS22,2222,53,80,443,445,3389 -iL file.txt -oA hostDiscovery/targets -->
+<nmaprun scanner="nmap" args="nmap -sn -PS22,2222,53,80,443,445,3389 -iL file.txt -oA hostDiscovery/targets" start="1741315617" startstr="Thu Mar  6 22:46:57 2025" version="7.95" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.50.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="414" rttvar="4041" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.50.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="21004" rttvar="21004" to="105020"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.50.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="87460" rttvar="87460" to="437300"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.50.7" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="90" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.50.8" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="85670" rttvar="93940" to="461430"/>
+</host>
+<runstats><finished time="1741315644" timestr="Thu Mar  6 22:47:24 2025" summary="Nmap done at Thu Mar  6 22:47:24 2025; 256 IP addresses (5 hosts up) scanned in 26.83 seconds" elapsed="26.83" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>

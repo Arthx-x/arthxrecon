@@ -1,5 +1,8 @@
-{
-    "log_file": "arthxrecon.log",
-    "verbose": false
-  }
-  
+# Configurations for ArthxRecon
+
+# Log file path used for application logging.
+log_file = "arthxrecon.log"
+
+# Verbose mode flag.
+# When set to true, the application logs will also be printed to the console.
+verbose = true

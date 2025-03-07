@@ -1,0 +1,7 @@
+# Nmap 7.95 scan initiated Thu Mar  6 22:46:57 2025 as: nmap -sn -PS22,2222,53,80,443,445,3389 -iL file.txt -oA hostDiscovery/targets
+Host: 192.168.50.1 ()	Status: Up
+Host: 192.168.50.2 ()	Status: Up
+Host: 192.168.50.3 ()	Status: Up
+Host: 192.168.50.7 ()	Status: Up
+Host: 192.168.50.8 ()	Status: Up
+# Nmap done at Thu Mar  6 22:47:24 2025 -- 256 IP addresses (5 hosts up) scanned in 26.83 seconds
